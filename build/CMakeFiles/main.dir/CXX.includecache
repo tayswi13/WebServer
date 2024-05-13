@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/web_server.h
+
+/home/tom/WebServer/src/main.cpp
+iostream
+-
+web_server.h
+/home/tom/WebServer/src/web_server.h
+
+/home/tom/WebServer/src/web_server.cpp
+web_server.h
+/home/tom/WebServer/src/web_server.h
+
