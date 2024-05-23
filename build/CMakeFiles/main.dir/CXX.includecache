@@ -7,12 +7,20 @@
 #IncludeRegexTransform: 
 
 ../include/web_server.h
-
-/home/tom/WebServer/src/main.cpp
 iostream
 -
-web_server.h
-/home/tom/WebServer/src/web_server.h
+sys/socket.h
+-
+arpa/inet.h
+-
+cstring
+-
+cassert
+-
+sys/epoll.h
+-
+unistd.h
+-
 
 /home/tom/WebServer/src/web_server.cpp
 web_server.h
